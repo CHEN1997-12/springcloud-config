@@ -12,8 +12,7 @@ server:
   port: 8201
 # spring的配置
 spring:
-  profiles: 
-    include: dev
+  profiles: dev
   application:
     name: springcloud-provider-dept-8001
 
@@ -30,8 +29,7 @@ server:
   port: 8202
 # spring的配置
 spring:
-  profiles:
-    include: test
+  profiles: test
   application:
     name: springcloud-provider-dept-8001
 
