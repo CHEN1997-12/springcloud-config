@@ -1,6 +1,6 @@
-spring: 
-  profiles:
-    active: test
+# spring: 
+#   profiles:
+#     active: test
 
 
 ---
@@ -8,7 +8,8 @@ server:
   port: 8201
 # spring的配置
 spring:
-  profiles: dev
+  profiles: 
+    include: dev
   application:
     name: springcloud-provider-dept-8001
 
@@ -25,7 +26,8 @@ server:
   port: 8202
 # spring的配置
 spring:
-  profiles: test
+  profiles:
+    include: test
   application:
     name: springcloud-provider-dept-8001
 
