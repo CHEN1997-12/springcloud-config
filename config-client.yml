@@ -3,9 +3,9 @@
 # 当远端多环境中 已经激活（active）其中一套时,此处的配置不生效，远端配置的active优先级更高
 # 当远端没有激活环境时，按照此处配置的环境读取配置
 
-spring: 
-  profiles:
-    active: dev
+# spring: 
+#   profiles:
+#     active: dev
 
 ---
 server:
